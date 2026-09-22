@@ -37,4 +37,9 @@ public class Url {
             this.clickCount = 0L;
         }
     }
+
+    public Url(String originalUrl, String shortCode) {
+        this.originalUrl = originalUrl;
+        this.shortCode = shortCode;
+    }
 }
